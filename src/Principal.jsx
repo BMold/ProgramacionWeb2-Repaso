@@ -1,4 +1,3 @@
-import Tarjeta from "./Tarjeta"
 function Principal() {
 
   return (
