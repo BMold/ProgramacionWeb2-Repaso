@@ -35,19 +35,42 @@
 
 .card {
   padding: 2em;
-  width: 18rem;
-
-}
-
-.card-group{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: black;
+}
+
+.cont1{
+  width: 30%;
+  background-color: red;
+}
+
+.cont2{
+  width: 70%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  height: 10%;
+
+}
+
+.cont3{
+  height: 80%;
+  background-color: green;
+}
+
+.footer{
+  height: 10%;
+  background-color: yellow;
 }
